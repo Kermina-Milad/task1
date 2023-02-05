@@ -1,0 +1,139 @@
+   html {
+       background-color: black;
+   }
+   
+   #container {
+       width: 100%;
+       height: 100%;
+   }
+   
+   ul {
+       list-style: none;
+   }
+   
+   .header {
+       /* position: fixed;*/
+       width: 100%;
+       max-height: 12%;
+   }
+   
+   .header #header1 {
+       width: 20%;
+       float: left;
+   }
+   
+   .header #header img {
+       width: 20%;
+       margin-top: 0.5%;
+       height: 2%;
+   }
+   
+   .nav {
+       width: 70%;
+       /* min-width: 60%;*/
+       float: left;
+       list-style: none;
+       text-align: right;
+       margin-left: 15%;
+       margin-right: 2%;
+       margin-top: -4%;
+   }
+   
+   .header .nav>li {
+       display: inline-block;
+       width: 9%;
+       text-align: center;
+       /*margin-right: 2rem;*/
+   }
+   
+   .header .nav>li>a {
+       color: aliceblue;
+       text-decoration: none;
+       display: block;
+       padding: 3% 15%;
+       font-size: 1vw;
+   }
+   
+   #header1 {
+       color: #ff6600;
+       font-size: 3vw;
+       position: relative;
+       left: 4%;
+       top: 2%;
+       font-family: 'Anton', sans-serif;
+   }
+   /*.header {
+       border-bottom: #ff6600 solid;
+   }*/
+   
+   img {
+       width: 30%;
+       height: 70%;
+       position: absolute;
+       top: 15%;
+       right: 15%;
+   }
+   
+   #body {
+       width: 50%;
+       position: absolute;
+       top: 30%;
+       left: 1%;
+   }
+   
+   h1 {
+       font-size: 2.5vw;
+       position: relative;
+       top: 35%;
+       left: 32%;
+       color: #f9f3ee;
+   }
+   
+   h2 {
+       font-size: 1.7vw;
+       position: relative;
+       top: 30%;
+       left: 45%;
+       color: #ff6600;
+   }
+   
+   p {
+       font-size: 1vw;
+       position: relative;
+       top: 40%;
+       left: 18%;
+       color: #f9f3ee;
+   }
+   
+   #icons {
+       list-style: none;
+       text-align: center;
+       position: relative;
+       left: -5%;
+       /* margin: 2%;*/
+   }
+   
+   #icons li {
+       display: inline-block;
+       padding: 0% 0%;
+   }
+   
+   #icons li a {
+       display: block;
+   }
+   
+   .btn {
+       width: 40%;
+       position: relative;
+       /* top: 65%;*/
+       left: 35%;
+   }
+   
+   .btn button {
+       font-size: 1vw;
+       width: 100%;
+       height: 40%;
+       background-color: #ff6600;
+       padding: 6%;
+       border-radius: 50%;
+   }
